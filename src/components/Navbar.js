@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { BookContext } from '../context/BookContext';
  
-function Navbar() {
+export default function Navbar() {
     const { books } = useContext(BookContext);
   return (
     <div className='navbar'>
@@ -10,5 +10,3 @@ function Navbar() {
     </div>
   );
 }
-
-export default Navbar;
