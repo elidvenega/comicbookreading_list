@@ -1,6 +1,6 @@
 # Reading List
 
-A reading list project to organize all the book one would want
+A reading list project to organize all the books one would want
 to read.
 
 ## Tech Stack

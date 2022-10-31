@@ -1,17 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
+:root {
+  --main-color: #047857;
+  --second-color: #14b8a6;
+  --third-color: #4f46e5;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  background: url(./img/books.jpg) no-repeat center center/cover;
+  height: 100vh;
   font-family: "Open Sans", sans-serif;
   margin: 0;
 }
 
 .App {
-  background: #00cec9;
-  border-radius: 5%;
-  margin: 20px auto;
-  padding: 15px;
+  background: var(--main-color);
+  border-radius: 10%;
+  margin: 40px auto;
+  padding: 35px;
   width: 100%;
-  max-width: 550px;
+  max-width: 450px;
   color: #fff;
 }
 
@@ -34,7 +50,7 @@ body {
 }
 
 .book-list li {
-  background: #6c5ce7;
+  background: var(--third-color);
   border-radius: 4px;
   padding: 10px;
   cursor: pointer;
@@ -71,7 +87,7 @@ input[type="text"] {
   width: 70%;
   padding: 10px;
   box-sizing: border-box;
-  margin: 20px 80px;
+  margin: 20px 60px;
   border: 0;
 }
 
@@ -81,7 +97,7 @@ input[type="placeholder"] {
 
 input[type="submit"] {
   margin: 15px auto;
-  background: #0984e3;
+  background: var(--second-color);
   border: 0;
   border-radius: 5%;
   color: #fff;
@@ -91,15 +107,16 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background: #fff;
-  color: #0984e3;
+  color: var(--second-color);
   cursor: pointer;
 }
 
 @media (max-width: 600px) {
   .App {
-    background: #00cec9;
+    background: var(--main-color);
     border-radius: 5%;
     margin: 10px auto;
+    margin-top: 40px;
     padding: 10px;
     width: 100%;
     max-width: 80%;
