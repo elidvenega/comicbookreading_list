@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
 :root {
-  --main-color: #047857;
-  --second-color: #14b8a6;
-  --third-color: #4f46e5;
+  --main-color: #e74c3c;
+  --secondary-color: #2980b9;
+  --third-color: #2c3e50;
+  --white: #fff;
 }
 
 *,
@@ -15,9 +16,9 @@
 }
 
 body {
-  background: url(./img/books.jpg) no-repeat center center/cover;
+  background: url(./assets/books.jpg) no-repeat center center/cover;
   height: 100vh;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
 }
 
@@ -26,9 +27,8 @@ body {
   border-radius: 10%;
   margin: 40px auto;
   padding: 35px;
-  width: 100%;
-  max-width: 450px;
-  color: #fff;
+  max-width: 480px;
+  color: var(--white);
 }
 
 .navbar {
@@ -58,13 +58,13 @@ body {
 }
 
 .book-list li:hover {
-  opacity: 0.7;
+  opacity: 0.9;
   text-decoration: line-through;
 }
 
 .book-list .title {
   font-weight: bold;
-  color: #fff;
+  color: var(--white);
   font-size: 1.2em;
 }
 
@@ -84,10 +84,10 @@ body {
 }
 
 input[type="text"] {
-  width: 70%;
+  width: 80%;
   padding: 10px;
   box-sizing: border-box;
-  margin: 20px 60px;
+  margin: 20px 50px;
   border: 0;
 }
 
@@ -97,17 +97,17 @@ input[type="placeholder"] {
 
 input[type="submit"] {
   margin: 15px auto;
-  background: var(--second-color);
+  background: var(--third-color);
   border: 0;
   border-radius: 5%;
-  color: #fff;
+  color: var(--white);
   padding: 12px 28px;
   display: block;
 }
 
 input[type="submit"]:hover {
-  background: #fff;
-  color: var(--second-color);
+  background: var(--secondary-color);
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -116,7 +116,7 @@ input[type="submit"]:hover {
     background: var(--main-color);
     border-radius: 5%;
     margin: 10px auto;
-    margin-top: 40px;
+    margin-top: 90px;
     padding: 10px;
     width: 100%;
     max-width: 80%;
