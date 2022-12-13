@@ -18,7 +18,7 @@
 body {
   background: url(./assets/books.jpg) no-repeat center center/cover;
   height: 100vh;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   margin: 0;
 }
 
@@ -123,15 +123,20 @@ input[type="submit"]:hover {
     color: #fff;
   }
 
+  .navbar h1 {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  .navbar p {
+    font-size: 0.7rem;
+  }
+
   input[type="text"] {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 70%;
-    /* text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: auto;  */
     padding: 10px;
     box-sizing: border-box;
     margin: 20px 50px;
