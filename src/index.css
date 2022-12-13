@@ -97,7 +97,7 @@ input[type="placeholder"] {
 
 input[type="submit"] {
   margin: 15px auto;
-  background: var(--third-color);
+  background: var(--secondary-color);
   border: 0;
   border-radius: 5%;
   color: var(--white);
@@ -106,7 +106,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: var(--secondary-color);
+  background: var(--third-color);
   color: var(--white);
   cursor: pointer;
 }

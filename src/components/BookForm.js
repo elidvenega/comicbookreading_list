@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { BookContext } from "../context/BookContext";
 
-const NewBookForm = () => {
+export const NewBookForm = () => {
   const { dispatch } = useContext(BookContext);
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
@@ -34,4 +34,3 @@ const NewBookForm = () => {
   );
 };
 
-export default NewBookForm;
