@@ -1,11 +1,11 @@
 # Comic Book Reading List
 
 A comic book reading list project to organize all the comic books one would want
-to read.
+to read. Originally built using create-react-app but moved to Vite.
 
 ## Tech Stack
 
-**Client:** React, CSS
+**Client:** React, CSS, Vite
 
 ## Demo
 
@@ -22,5 +22,6 @@ https://reading-list1.netlify.app/
 ```bash
   cd comicbookreading_list
   npm install
-  npm start
+  # Will run on port 3000
+  npm run dev
 ```
